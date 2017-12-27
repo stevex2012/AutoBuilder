@@ -1,0 +1,83 @@
+.img_coporation{    
+    padding:20px;
+    min-width: 900px;
+    border:1px dashed grey;
+    text-align:center;
+    
+    .page-config{
+      
+    }
+    .page-func{
+
+    }
+    .pageType,
+    .htmlTitle{
+      text-align: left;
+      padding-left: 6em;
+      .txt{
+      position:absolute;
+      margin-left: -6em;
+    }
+    }
+   
+    // 选择生成专题页 类型
+    .pageType{        
+      margin-bottom: 10px;
+        label{
+            margin-right: 25px;            
+        }
+    }
+    // 设置网页 title keyword ，description
+    .htmlTitle{                       
+        input{
+            height: 28px;           
+        }
+        input,textarea{
+           min-width: 20em;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+    img{
+        vertical-align:top;
+        width:100%;
+    }
+    .img_wrap {
+        margin-bottom:10px;
+        .img_box{
+             position:relative;
+             width:900px;
+             border:5px solid orange;
+             .click_box{
+                 background:rgba(0,0,0,0.5);
+                 width:50px;
+                 height:50px;
+                 position:absolute;
+                 cursor: move;
+                 border:1px solid rgb(29, 179, 109);
+                 .del{
+                     position:absolute;
+                     right:0;
+                     top:0;
+                     font-size:12px;
+                     height:15px;
+                     width:15px;
+                     border-radius:50%;
+                     background-color:orange;
+                     color:#fff;
+                     cursor:pointer;
+                 }
+             }
+         }
+    }
+    .img_box.ac{
+        border-color:red;
+    }
+    button{
+        width:100px;
+        height:44px;
+        line-height:44px;
+    }
+}

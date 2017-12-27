@@ -1,0 +1,28 @@
+{
+  "name": "autobuilder",
+  "description": "AutoBuilder",
+  "version": "0.0.1474",
+  "dependencies": {
+    "zip-local": "0.3.4",
+    "react-dragger-r": "0.0.12",
+    "react-dom": "16.0.0",
+    "react": "16.0.0",
+    "jszip": "3.1.5",
+    "jquery": "1.11.0",
+    "images": "3.0.1",
+    "fs": "0.0.1-security",
+    "express": "4.16.2",
+    "events": "1.1.1",
+    "cheerio": "1.0.0-rc.2",
+    "body-parser": "1.18.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

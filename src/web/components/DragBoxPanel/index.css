@@ -1,0 +1,20 @@
+.title, .content {
+  font-size: 14px;
+  line-height: 20px; }
+
+.content-right-nav {
+  position: relative;   
+  margin-top: 5px;    
+  text-align: left;
+  }
+.content-right-nav:first-child{
+  margin-top: 0;
+}
+.content-right-nav input {
+    width: 100%;
+        border: none;
+    height: 24px; }
+.content-right-nav .title{
+  color: #fff;
+}
+/*# sourceMappingURL=right_nav.css.map */
