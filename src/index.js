@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import './index.css';
-import Header from './web/components/Header';
-import FuncPanel from './web/components/FuncPanel';
-import OptPanel from './web/components/OptPanel';
+import Header from './components/Header';
+import FuncPanel from './components/FuncPanel';
+import OptPanel from './components/OptPanel';
 
 // 显示头部信息
 const headerTitle = "专题可视化构建工具"

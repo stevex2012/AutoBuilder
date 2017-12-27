@@ -1,0 +1,24 @@
+.clkArea {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute; }
+  .clkArea .content {
+    height: 100%; }
+  .clkArea .dragable {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    cursor: se-resize; }
+  .clkArea .right-coperation {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 200px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ff3;
+    background-color: rgba(0, 0, 0, 0.7); }

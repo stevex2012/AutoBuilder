@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.box {
+  position: relative;
+  min-width: 1180px;
+  width: 100%;
+  overflow: hidden; }
+
+.box .inner-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+  width: 1920px; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.img-box {
+  position: relative; }
+
+.btn {
+  position: absolute;
+  z-index: 3;
+  background: url(about:blank); }
+
+/*# sourceMappingURL=base.css.map */
